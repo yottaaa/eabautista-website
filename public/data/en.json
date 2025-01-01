@@ -61,7 +61,7 @@
       "subtitle": "Kanban PHP is a todo Web application tool for individuals or teams, made in PHP Core.",
       "description": "A todo Web application tool for individuals or teams, made in PHP Core. This is my project in Integrative Programming and Technologies,  also in Database Management System.",
       "href": "https://github.com/yottaaa/Kanban-PHP",
-      "img": "https://github.com/yottaaa/Kanban-PHP/blob/main/kanban_php.PNG?raw=true",
+      "img": "/img/kanban_php.png",
       "stars": "0"
     },
     {
@@ -71,7 +71,7 @@
       "subtitle": "REST API server for CNSC Cafeteria Ordering System to be used in Mobile and Desktop Application for client's capstone project.",
       "description": "Backend Rest API server for CNSC Canteen Ordering System to be used in Mobile and Desktop Application for client's capstone project made in Django and Django Rest Framework, it also has SMS notification for OTP using Twilio API.",
       "href": "",
-      "img": "https://royeen.vercel.app/static/media/1.aea294ada05bf24a618b.jpg",
+      "img": "/img/cos-api.png",
       "stars": "0"
     },
     {
@@ -81,7 +81,7 @@
       "subtitle": "Simple attendance system using Django and React with time calculation.",
       "description": "Simple attendance system using Django and React with time calculation.",
       "href": "https://gitlab.com/rockyou_yotta/euodoo-hris-backend",
-      "img": "https://github.com/yottaaa/my-website/blob/main/src/assets/attendance_system1.png?raw=true",
+      "img": "/img/attendance_system1.png",
       "stars": "0"
     },
     {
@@ -101,7 +101,7 @@
         "subtitle": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack.",
         "description": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack. Deployed in AWS EC2 with NGINX as a reverse proxy.",
         "href": "https://github.com/yottaaa/budyet-app",
-        "img": "https://github.com/yottaaa/budyet-app/blob/main/app.png?raw=true",
+        "img": "/img/budyet-app.png",
         "stars": "0"
       }
   ]
