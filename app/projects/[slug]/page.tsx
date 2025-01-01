@@ -1,8 +1,8 @@
-import { promises as fs } from "fs";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { IoMdLink } from "react-icons/io";
+import { promises as fs } from "fs";
 
 interface IProject {
   href: string;
@@ -23,6 +23,7 @@ export default async function Page({
     "utf-8"
   );
   const data = JSON.parse(file);
+
   const { slug } = await params;
   const project = data.projects.find(
     (project: IProject) => project.slug === slug
@@ -36,15 +37,22 @@ export default async function Page({
     <main className="flex min-h-screen flex-col items-center py-24 px-6 lg:px-24">
       <div className="z-2 w-full max-w-5xl font-mono text-sm justify-between">
         <div className="flex items-center gap-2">
-          <h1 className="text-4xl font-bold text-balance">{project?.name}</h1>
-          {project?.href && (
-            <Link href={project?.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'><IoMdLink size={25}/></Link>
+          <h1 className="text-4xl font-bold text-balance">{project.name}</h1>
+          {project.href && (
+            <Link
+              href={project.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium transition-all"
+            >
+              <IoMdLink size={25} />
+            </Link>
           )}
         </div>
-        <br/>
-        <p className="text-surface-600 text-xs">{project?.framework}</p>
         <br />
-        {project?.img && (
+        <p className="text-surface-600 text-xs">{project.subtitle}</p>
+        <br />
+        {project.img && (
           <div>
             <Image
               src={project.img}
@@ -55,7 +63,7 @@ export default async function Page({
             <br />
           </div>
         )}
-        <p>{project?.description}</p>
+        <p>{project.description}</p>
         <br />
         <Link href="/">
           &larr;{" "}

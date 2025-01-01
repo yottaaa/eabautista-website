@@ -71,7 +71,7 @@
       "subtitle": "REST API server for CNSC Cafeteria Ordering System to be used in Mobile and Desktop Application for client's capstone project.",
       "description": "Backend Rest API server for CNSC Canteen Ordering System to be used in Mobile and Desktop Application for client's capstone project made in Django and Django Rest Framework, it also has SMS notification for OTP using Twilio API.",
       "href": "",
-      "img": "/img/cos-api.png",
+      "img": "/img/cos-api.jpg",
       "stars": "0"
     },
     {
