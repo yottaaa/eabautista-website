@@ -19,7 +19,7 @@ export default async function Page({
   params: Promise<{ slug: string }>;
 }) {
   const file = await fs.readFile(
-    process.cwd() + "/public/data/en.json",
+    process.cwd() + "/app/data/en.json",
     "utf-8"
   );
   const data = JSON.parse(file);
