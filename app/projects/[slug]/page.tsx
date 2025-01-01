@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { IoMdLink } from "react-icons/io";
-import { promises as fs } from "fs";
+import { content } from "@/app/data/content";
 
 interface IProject {
   href: string;
@@ -18,12 +18,7 @@ export default async function Page({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const file = await fs.readFile(
-    process.cwd() + "/app/data/en.json",
-    "utf-8"
-  );
-  const data = JSON.parse(file);
-
+  const data = content;
   const { slug } = await params;
   const project = data.projects.find(
     (project: IProject) => project.slug === slug

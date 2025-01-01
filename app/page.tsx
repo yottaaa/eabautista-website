@@ -3,14 +3,11 @@ import TechStacks from "@/components/tech-stacks";
 import Experiences from "@/components/experiences/experiences";
 import Projects from "@/components/projects/projects";
 import Footer from "@/components/footer";
-import { promises as fs } from "fs";
+import { content } from "./data/content";
 
-export default async function Home() {
-  const file = await fs.readFile(
-    process.cwd() + "/app/data/en.json",
-    "utf-8"
-  );
-  const data = JSON.parse(file);
+export default function Home() {
+
+  const data = content;
   const experiences = data.experiences;
   experiences.reverse()
   const projects = data.projects;

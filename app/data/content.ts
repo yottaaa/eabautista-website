@@ -1,4 +1,4 @@
-{
+export const content = {
   "general": {
     "name": "Erick Bautista",
     "role": "Software Developer",
@@ -95,14 +95,14 @@
       "stars": "0"
     },
     {
-        "name": "Budyet App",
-        "slug": "budyet-app",
-        "framework": "MERN | AWS | NGINX",
-        "subtitle": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack.",
-        "description": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack. Deployed in AWS EC2 with NGINX as a reverse proxy.",
-        "href": "https://github.com/yottaaa/budyet-app",
-        "img": "/img/budyet-app.png",
-        "stars": "0"
-      }
+      "name": "Budyet App",
+      "slug": "budyet-app",
+      "framework": "MERN | AWS | NGINX",
+      "subtitle": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack.",
+      "description": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack. Deployed in AWS EC2 with NGINX as a reverse proxy.",
+      "href": "https://github.com/yottaaa/budyet-app",
+      "img": "/img/budyet-app.png",
+      "stars": "0"
+    }
   ]
 }
