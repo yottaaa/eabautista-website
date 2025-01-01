@@ -25,9 +25,9 @@ const Header: React.FC<HeaderProps> = (props) => {
           <Image
             src={props.data.photo}
             alt="Profile Picture"
-            width={150}
-            height={100}
-            className="object-contain object-top w-auto h-auto"
+            width={200}
+            height={200}
+            className="object-contain object-top"
           />
           <div className="flex flex-col gap-2 items-center lg:items-start">
           <h1 className="text-4xl lg:pr-10 subpixel-antialiased tracking-wide">
