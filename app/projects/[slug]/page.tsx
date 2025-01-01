@@ -11,6 +11,7 @@ interface IProject {
   description: string;
   img: string;
   subtitle: string;
+  framework: string;
 }
 
 export default async function Page({
@@ -45,7 +46,7 @@ export default async function Page({
           )}
         </div>
         <br />
-        <p className="text-surface-600 text-xs">{project.subtitle}</p>
+        <p className="text-surface-600 text-xs">{project.framework}</p>
         <br />
         {project.img && (
           <div>
