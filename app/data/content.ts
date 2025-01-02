@@ -3,7 +3,7 @@ export const content = {
     "name": "Erick Bautista",
     "role": "Software Developer",
     "photo": "/img/myself.jpg",
-    "headline": "Dedicated and passionate person who loves to learn about technology. My goal is to be a successful IT professional specializing Software Development. Also, I would like to share my skills and knowledge to everyone.",
+    "headline": "A dedicated and passionate individual with a love for learning about technology. My goal is to become a successful IT professional specializing in software development. I am also eager to share my skills and knowledge with others.",
     "techStacks": [
       "Python",
       "JavaScript",
