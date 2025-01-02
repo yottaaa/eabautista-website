@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             </span>
           </div>
         </div>
-        <h2 className="text-surface-600 pt-2 lg:pr-10 text-base text-justify font-normal tracking-wider">
+        <h2 className="text-surface-600 pt-2 lg:pr-10 text-base font-normal tracking-wider">
           {props.data.headline}
         </h2>
       </div>
