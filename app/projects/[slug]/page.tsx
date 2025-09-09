@@ -1,18 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { IoMdLink } from "react-icons/io";
 import { content } from "@/app/data/content";
-
-interface IProject {
-  href: string;
-  name: string;
-  slug: string;
-  description: string;
-  img: string;
-  subtitle: string;
-  framework: string;
-}
+import { IProject } from "@/types/Project";
+import ImgCarousel from "@/components/img-carousel";
+import React from "react";
 
 export default async function Page({
   params,
@@ -21,9 +13,7 @@ export default async function Page({
 }) {
   const data = content;
   const { slug } = await params;
-  const project = data.projects.find(
-    (project: IProject) => project.slug === slug
-  );
+  const project = data.projects.find((p: IProject) => p.slug === slug);
 
   if (!project) {
     notFound();
@@ -47,21 +37,23 @@ export default async function Page({
         </div>
         <br />
         <p className="text-surface-600 text-xs">{project.framework}</p>
+
         <br />
-        {project.img && (
-          <div>
-            <Image
-              src={project.img}
-              alt={project.name}
-              width={1000}
-              height={400}
-            />
+        <br />
+        
+        {project.img.length > 0 && (
+          <React.Fragment>
+            <ImgCarousel images={project.img} />
             <br />
-          </div>
+          </React.Fragment>
         )}
+
         <p>{project.description}</p>
+
         <br />
-        <Link href="/">
+        <br />
+
+        <Link href="/" className="mt-2">
           &larr;{" "}
           <span className="transition-all hover:pl-4">Return to Home</span>
         </Link>

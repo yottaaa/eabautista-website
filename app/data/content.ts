@@ -2,7 +2,7 @@ export const content = {
   "general": {
     "name": "Erick Bautista",
     "role": "Software Developer",
-    "photo": "/img/myself.jpg",
+    "photo": "/img/myself.webp",
     "headline": "A dedicated and passionate individual with a love for learning about technology. My goal is to become a successful IT professional specializing in software development. I am also eager to share my skills and knowledge with others.",
     "techStacks": [
       "Python",
@@ -61,7 +61,7 @@ export const content = {
       "subtitle": "Kanban PHP is a todo Web application tool for individuals or teams, made in PHP Core.",
       "description": "A todo Web application tool for individuals or teams, made in PHP Core. This is my project in Integrative Programming and Technologies,  also in Database Management System.",
       "href": "https://github.com/yottaaa/Kanban-PHP",
-      "img": "/img/kanban_php.png",
+      "img": ["/img/kanban_php.webp"],
       "stars": "0"
     },
     {
@@ -71,7 +71,7 @@ export const content = {
       "subtitle": "REST API server for CNSC Cafeteria Ordering System to be used in Mobile and Desktop Application for client's capstone project.",
       "description": "Backend Rest API server for CNSC Canteen Ordering System to be used in Mobile and Desktop Application for client's capstone project made in Django and Django Rest Framework, it also has SMS notification for OTP using Twilio API.",
       "href": "",
-      "img": "/img/cos-api.jpg",
+      "img": ["/img/cos-api.webp"],
       "stars": "0"
     },
     {
@@ -81,17 +81,17 @@ export const content = {
       "subtitle": "Simple attendance system using Django and React with time calculation.",
       "description": "Simple attendance system using Django and React with time calculation.",
       "href": "https://gitlab.com/rockyou_yotta/euodoo-hris-backend",
-      "img": "/img/attendance_system1.png",
+      "img": ["/img/attendance_system1.webp"],
       "stars": "0"
     },
     {
       "name": "Geonode Automated Scraper",
       "slug": "geonode-automated-scraper",
-      "framework": "Django | Selenium | Celery",
+      "framework": "Django | Selenium | Celery | Docker",
       "subtitle": "A Django Web Scraper using Selenium and Celery",
       "description": "A web application that scrapes/extracts data from https://geonode.com/free-proxy-list. I used Django for creating web applications, Selenium for web scraping, Celery for task queuing, and Celery Beat for scheduling the extraction every day.",
       "href": "https://github.com/yottaaa/assesstment_test_ag/tree/main/problem_1/geonode",
-      "img": "",
+      "img": ["/img/geonode_1.webp","/img/geonode_2.webp","/img/geonode_3.webp"],
       "stars": "0"
     },
     {
@@ -101,7 +101,7 @@ export const content = {
       "subtitle": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack.",
       "description": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack. Deployed in AWS EC2 with NGINX as a reverse proxy.",
       "href": "https://github.com/yottaaa/budyet-app",
-      "img": "/img/budyet-app.png",
+      "img": ["/img/budyet-app.webp"],
       "stars": "0"
     }
   ]

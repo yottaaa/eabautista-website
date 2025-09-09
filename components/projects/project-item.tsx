@@ -7,7 +7,7 @@ interface ProjectItemProps {
   subtitle: string;
   description: string;
   framework: string;
-  img: string;
+  img: string[];
 }
 
 const ProjectItem: React.FC<ProjectItemProps> = (props) => {
