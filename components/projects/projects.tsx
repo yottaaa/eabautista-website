@@ -11,8 +11,9 @@ const Projects: React.FC<ProjectsProps> = (props) => {
         <div data-section id='projects' className='mb-16'>
             <h2 className='mb-8 visible lg:invisible font-medium tracking-widest'>Projects</h2>
             <div className='grid grid-cols-2 gap-2'>
-                {props.data.map(function(item: IProject, index: number){
+                {props.data.sort((a: IProject, b: IProject) => b.id - a.id).map(function(item: IProject, index: number){
                     return <ProjectItem
+                        id={item.id}
                         key={index}
                         name={item.name}
                         slug={item.slug}

@@ -55,6 +55,7 @@ export const content = {
   ],
   "projects": [
     {
+      "id": 1,
       "name": "Kanban-PHP",
       "slug": "kanban-php",
       "framework": "PHP",
@@ -65,6 +66,7 @@ export const content = {
       "stars": "0"
     },
     {
+      "id": 2,
       "name": "Backend REST API Ordering system for CNSC cafeteria",
       "slug": "backend-rest-api-ordering-system-for-cnsc-cafeteria",
       "framework": "Django | Django Rest Framework",
@@ -75,6 +77,7 @@ export const content = {
       "stars": "0"
     },
     {
+      "id": 3,
       "name": "Simple Attendace System",
       "slug": "simple-attendace-system",
       "framework": "Django | React",
@@ -85,6 +88,7 @@ export const content = {
       "stars": "0"
     },
     {
+      "id": 4,
       "name": "Geonode Automated Scraper",
       "slug": "geonode-automated-scraper",
       "framework": "Django | Selenium | Celery | Docker",
@@ -95,6 +99,7 @@ export const content = {
       "stars": "0"
     },
     {
+      "id": 5,
       "name": "Budyet App",
       "slug": "budyet-app",
       "framework": "MERN | AWS | NGINX",
@@ -102,6 +107,28 @@ export const content = {
       "description": "A budyet, income, and expense monitoring app with analytics dashboard built in MERN stack. Deployed in AWS EC2 with NGINX as a reverse proxy.",
       "href": "https://github.com/yottaaa/budyet-app",
       "img": ["/img/budyet-app.webp"],
+      "stars": "0"
+    },
+    {
+      "id": 6,
+      "name": "AI-Powered Mental Health Chatbot",
+      "slug": "ai-powered-mental-health-chatbots",
+      "framework": "Make.com | Telegram | Discord | ChatGPT",
+      "subtitle": "This project showcases an AI-powered chatbot integrated with Telegram and Discord, built using Make.com and ChatGPT",
+      "description": "This project showcases an AI Chatbot for Mental Health, designed to run on Telegram and Discord using Make.com and ChatGPT. The chatbot provides supportive, empathetic conversations and shares helpful resources, demonstrating my ability to integrate AI with real-world platforms while focusing on human-centered applications.",
+      "href": "",
+      "img": ["/img/ai_chatbot_1.webp","/img/ai_chatbot_2.webp"],
+      "stars": "0"
+    },
+    {
+      "id": 7,
+      "name": "Lista Jobs",
+      "slug": "lista-jobs",
+      "framework": "Google AppSheet | Google Sheets",
+      "subtitle": "A no-code full stack job listing app created using AppSheet, enabling easy posting, management, and organization of job opportunities.",
+      "description": "This project demonstrates a no-code full stack application built with AppSheet for managing personal job listings. It highlights my ability to leverage no-code tools to design, build, and deploy scalable applications quickly while maintaining functionality and usability.",
+      "href": "https://www.appsheet.com/start/47023f04-3521-4958-a7d5-b77d240c8a65",
+      "img": ["/img/appsheet_1.webp","/img/appsheet_2.webp"],
       "stars": "0"
     }
   ]

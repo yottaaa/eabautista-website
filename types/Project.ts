@@ -1,4 +1,5 @@
 export interface IProject {
+  id: number;
   href: string;
   name: string;
   slug: string;
