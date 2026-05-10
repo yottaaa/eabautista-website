@@ -116,7 +116,7 @@ const servicesOffered = [
 
 const stats = [
   { label: "Work experience", value: "3+" },
-  { label: "Porrfolio Projects", value: projects.length },
+  { label: "Portfolio Projects", value: projects.length },
   { label: "Focus", value: "Fullstack Development" },
 ];
 
